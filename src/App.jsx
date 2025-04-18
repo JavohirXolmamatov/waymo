@@ -10,6 +10,7 @@ import {
   Hero,
   Travel,
 } from "./pages";
+
 function App() {
   return (
     <div className="">

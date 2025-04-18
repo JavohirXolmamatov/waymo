@@ -1,3 +1,11 @@
 export { default as hero } from "./hero.jpg";
 export { default as footer } from "./footer.jpg";
 export { default as cl1 } from "./Company logo.png";
+export { default as cl2 } from "./Company logo 2.png";
+export { default as frame } from "./Frame 19.png";
+export { default as frame1 } from "./Frame 20.png";
+export { default as frame2 } from "./Frame 21.png";
+export { default as frame3 } from "./frame3.jpg";
+export { default as frame4 } from "./frame4.jpg";
+export { default as frame5 } from "./frame5.jpg";
+export { default as person1 } from "./person1.png";
