@@ -5,4 +5,5 @@ export { default as Gallery } from "./Gallery";
 export { default as Travel } from "./Travel";
 export { default as Contact } from "./Contact";
 export { default as Booking } from "./Booking";
+export { default as ErrorPage } from "./ErrorPage";
 export { default as Footer } from "./Footer";

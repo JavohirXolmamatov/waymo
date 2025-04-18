@@ -3,6 +3,7 @@ import {
   Booking,
   Contact,
   Destination,
+  ErrorPage,
   Footer,
   Gallery,
   Header,
@@ -12,10 +13,10 @@ import {
 function App() {
   return (
     <div className="">
-      <header>
+      <header className="fixed w-full z-50 top-0 left-0 right-0">
         <Header />
       </header>
-      <main>
+      <main className="">
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/destination" element={<Destination />} />
@@ -23,6 +24,9 @@ function App() {
           <Route path="/travel" element={<Travel />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/booking" element={<Booking />} />
+
+          {/* Error page */}
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </main>
       <footer>
