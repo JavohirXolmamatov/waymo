@@ -2,8 +2,8 @@ import React from "react";
 
 function PersonCard({ img, name, description }) {
   return (
-    <div className="w-96 h-50 flex flex-col gap-5 p-5 border-1 border-black/30 rounded-2xl mx-3">
-      <div className="flex justify-start items-center gap-3">
+    <div className="w-96 h-50 flex flex-col gap-5 p-5 border-1 border-black/30 rounded-2xl md:mx-3 mx-2">
+      <div className="flex justify-start  items-center md:gap-3 gap-2">
         <img
           src={img}
           alt={img}
