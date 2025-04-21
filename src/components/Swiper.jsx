@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
-function Swipers({ slidesPerView = 1, images }) {
+function Swipers({ slidesPerView, images }) {
   return (
     <Swiper
       spaceBetween={50}
@@ -20,6 +20,9 @@ function Swipers({ slidesPerView = 1, images }) {
       breakpoints={{
         0: {
           slidesPerView: 1, // 📱 Mobile uchun
+        },
+        640: {
+          slidesPerView: slidesPerView,
         },
       }}
     >

@@ -31,7 +31,11 @@ function Gallery() {
           />
         </div>
       </div>
-
+      <div className="md:w-8/10 w-9/10 mx-auto">
+        <h1 className="md:text-5xl text-3xl text-center">
+          Journey in <span className="font-medium"> Japan</span>
+        </h1>
+      </div>
       <div className="md:w-8/10 w-9/10 md:h-[640px] mx-auto flex flex-col md:grid md:grid-rows-2 grid-rows-3 md:grid-cols-3 grid-cols-1 md:gap-8 gap-4 justify-center md:my-15 my-5">
         <div className="w-full md:h-full h-[320px] rounded-md md:row-span-2">
           <img

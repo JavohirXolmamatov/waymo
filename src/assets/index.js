@@ -25,3 +25,5 @@ export { default as japan4 } from "./japan4.jpg";
 export { default as japan2 } from "./japan2.jpg";
 export { default as japan3 } from "./japan3.jpg";
 export { default as america } from "./america.jpg";
+export { default as travel1 } from "./travel1.jpg";
+export { default as contact } from "./contact.jpg";
