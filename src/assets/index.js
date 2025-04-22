@@ -27,3 +27,7 @@ export { default as japan3 } from "./japan3.jpg";
 export { default as america } from "./america.jpg";
 export { default as travel1 } from "./travel1.jpg";
 export { default as contact } from "./contact.jpg";
+export { default as booking } from "./booking.jpg";
+export { default as booking1 } from "./booking1.jpg";
+export { default as booking2 } from "./booking2.jpg";
+export { default as booking3 } from "./booking3.jpg";
